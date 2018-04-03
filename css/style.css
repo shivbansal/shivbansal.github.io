@@ -282,9 +282,17 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/home-bg-2.jpg);
+    background: url(../img/home-bg-1.jpg);
     background-size: cover;
     height: 100vh;
+}
+
+@media only screen and (min-width: 740px) {
+    #home { 
+        background: url(../img/home-bg-2.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
 }
 
 .table-cell {
@@ -600,7 +608,7 @@ a.active {
 .modal-content {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     border: none;
-    background-color:#337ab7;
+    background-color:#ffffff;
 }
 
 .popup-modal {
@@ -618,7 +626,7 @@ a.active {
     -webkit-transition-delay: .6s;
     transition-delay: .6s;
     position: fixed;
-    color:white;
+    color:black;
     z-index: 100000;
     right: 14px;
 }
